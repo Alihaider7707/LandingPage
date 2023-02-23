@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LandingPage/static/css/main.18061434.css",
+    "main.js": "/LandingPage/static/js/main.b131c5ba.js",
+    "static/js/787.66b477fd.chunk.js": "/LandingPage/static/js/787.66b477fd.chunk.js",
+    "static/media/Food-Pyramids-new-.png": "/LandingPage/static/media/Food-Pyramids-new-.eeff5bc73b9465e4123c.png",
+    "static/media/girl-image.png": "/LandingPage/static/media/girl-image.57e21f2745231ded4aaa.png",
+    "index.html": "/LandingPage/index.html",
+    "main.18061434.css.map": "/LandingPage/static/css/main.18061434.css.map",
+    "main.b131c5ba.js.map": "/LandingPage/static/js/main.b131c5ba.js.map",
+    "787.66b477fd.chunk.js.map": "/LandingPage/static/js/787.66b477fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18061434.css",
+    "static/js/main.b131c5ba.js"
+  ]
+}
