@@ -1,0 +1,46 @@
+.aboutus-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutus-text h2 {
+    color: var(--text2-color);
+}
+
+.aboutus-text p {
+    color: var(--ptext-color);
+    max-width: 450px;
+    margin-bottom: 60px;
+}
+
+.about-box {
+    width: auto;
+    height: 280px;
+    background: #f9f1fe;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+.about-box p {
+    color: var(--ptext-color);
+    max-width: 564px;
+}
+
+.about-box h5 {
+    color: var(--text2-color);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.about-box h6 {
+    color: var(--ptext-color);
+    font-size: 20px;
+    font-weight: 400;
+}

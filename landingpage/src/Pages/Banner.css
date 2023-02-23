@@ -1,0 +1,41 @@
+.banner-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+
+.banner01 .banner-text h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.banner01 .banner-text p {
+    max-width: 469px;
+    color: var(--ptext-color);
+    padding: 30px 0;
+}
+
+.video .icon {
+    font-size: 40px;
+    color: #efae37;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-text h3 {
+    color: var(--ptext-color);
+}
+
+.explore-btn {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
