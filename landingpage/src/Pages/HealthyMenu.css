@@ -29,11 +29,27 @@
     margin-bottom: 20px;
 }
 
+.icon-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-io {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    border: 3px solid rgb(167, 132, 202);
+    background: rgb(148, 76, 222);
+    border-radius: 15px;
+    padding: 5px;
+}
+
 .healthy-img-text-flex {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .healthy-red-flex {
@@ -88,4 +104,16 @@
     font-size: 17px;
     color: #5b5b5b;
     font-weight: 600;
+}
+
+@media (max-width:768px) {
+    .healthy-menu-box {
+        width: 320px;
+    }
+}
+
+@media (max-width:368px) {
+    .healthy-menu-box {
+        width: 290px;
+    }
 }

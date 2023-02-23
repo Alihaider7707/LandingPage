@@ -55,26 +55,21 @@
         left: 0;
         top: 10%;
         transition: all 0.5s ease-in-out;
-        text-align: center;
         width: 100%;
         background-color: #fff;
     }
     .Mobile-Menu-icon {
-        position: absolute;
+        position: relative;
         display: block;
-        right: 20px;
     }
     .navbar nav ul li {
-        padding: 32px;
         width: 100%;
         transition: all 0.5s ease-in-out;
-        text-align: center;
         display: block;
     }
     .headerbtn {
         border: none;
         background: none;
-        /* font-size: 20px; */
         cursor: pointer;
     }
     button .headerbtn-icon {

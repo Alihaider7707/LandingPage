@@ -2,6 +2,7 @@ import React from "react";
 import "../Pages/ImageBox.css";
 import boximg from "../images/girl-image.png";
 import { AiFillHeart } from "react-icons/ai";
+import { IoDiamondOutline } from "react-icons/io5";
 
 function ImageBox() {
   return (
@@ -12,7 +13,10 @@ function ImageBox() {
         </div>
         <div style={{padding:"40px"}}>
           <div className="box-image-text">
+            <div className="icon-flex">
+            <IoDiamondOutline className="icon-io"/>
             <h2>our value to help you</h2>
+            </div>
             <p>
               we always want to the best value for you and your health, join us
               to maximize the benefits

@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .box-image-box {
@@ -14,8 +15,29 @@
     border-radius: 20px;
 }
 
+.box-image-img img {
+    width: 100%;
+}
+
+.icon-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-io {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    border: 3px solid rgb(167, 132, 202);
+    background: rgb(148, 76, 222);
+    border-radius: 15px;
+    padding: 5px;
+}
+
 .box-image-text h2 {
     padding-bottom: 10px;
+    color: var(--text2-color);
+    text-transform: capitalize;
 }
 
 .box-image-text p {

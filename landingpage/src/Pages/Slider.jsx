@@ -1,12 +1,14 @@
 import React from "react";
 import "../Pages/Slider.css";
 import { GiChefToque } from "react-icons/gi";
+import { GiChessKing } from 'react-icons/gi';
 
 function Slider() {
   return (
     <>
       <div className="maxWidth">
         <div className="best-slider-text">
+          <GiChessKing className="best-slider-icon"/>
           <h2>Our Best Programs</h2>
         </div>
         <div className="box-flex">

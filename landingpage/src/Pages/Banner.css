@@ -3,14 +3,17 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 5%;
+    margin-top: 5%;
+    padding: 10px;
 }
 
 .banner01 .banner-text h1 {
-    font-size: 70px;
     color: #fff;
-    font-weight: 600;
     line-height: 1.2;
+}
+
+.banner02 img {
+    width: 100%;
 }
 
 .banner01 .banner-text p {
@@ -37,5 +40,7 @@
 .explore-btn {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../Pages/HealthyMenu.css";
 import { AiFillClockCircle } from "react-icons/ai";
+import { FaClipboardList } from "react-icons/fa";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import foodimg from "../images/Food-Pyramids-new-.png";
 
@@ -12,14 +13,17 @@ function HealthyMenu() {
     <div className="healthy-img-text-flex">
         <div>
       <div className="healthy-menu-text">
+        <div className="icon-flex">
+        <FaClipboardList className="icon-io"/>
         <h2>Try Our Healthy Menu</h2>
+        </div>
         <p>
           We provide a varity of healthy recipes that have been curated by our
           best nutritionists for you
         </p>
       </div>
       
-      <Scrollbars style={{ width: 450, height: 355 }}>
+      <Scrollbars style={{ width: 360, height: 355 ,margin: "auto"}}>
         <div className="healthy-menu-box menu-flex">
           <div className="healthy-icons">
             <AiFillClockCircle
