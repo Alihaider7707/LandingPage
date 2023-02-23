@@ -20,6 +20,9 @@ function Slider() {
               <div className="box-text">
                 <h2>Healthy Recipe</h2>
                 <p>Healthier Recipes, from food & nutriion experts</p>
+                <div className="box-link">
+                  <a href="learnmore">Learn More</a>
+                </div>
               </div>
             </div>
           </div>
@@ -31,6 +34,9 @@ function Slider() {
               <div className="box-text">
                 <h2>Healthy Recipe</h2>
                 <p>Healthier Recipes, from food & nutriion experts</p>
+                <div className="box-link">
+                  <a href="learnmore">Learn More</a>
+                </div>
               </div>
             </div>
           </div>
@@ -42,6 +48,9 @@ function Slider() {
               <div className="box-text">
                 <h2>Healthy Recipe</h2>
                 <p>Healthier Recipes, from food & nutriion experts</p>
+                <div className="box-link">
+                  <a href="learnmore">Learn More</a>
+                </div>
               </div>
             </div>
           </div>
@@ -53,6 +62,9 @@ function Slider() {
               <div className="box-text">
                 <h2>Healthy Recipe</h2>
                 <p>Healthier Recipes, from food & nutriion experts</p>
+                <div className="box-link">
+                  <a href="learnmore">Learn More</a>
+                </div>
               </div>
             </div>
           </div>
