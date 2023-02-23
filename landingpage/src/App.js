@@ -8,11 +8,12 @@ import Banner01 from "./Pages/Banner01";
 import HealthyMenu from "./Pages/HealthyMenu";
 import Aboutus from "./Pages/Aboutus";
 import Footer from "./Pages/Footer";
-
+import Box from "./Pages/Box";
 
 
 
 import { Switch, Redirect, Route } from 'react-router-dom'
+
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="Banner01" component={Banner01} />
         <Route exact path="HealthyMenu" component={HealthyMenu} />
         <Route exact path="Aboutus" component={Aboutus} />
+        <Route exact path="Box" component={Box} />
 
  
 
