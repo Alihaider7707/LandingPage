@@ -1,5 +1,5 @@
 import React from "react";
-import aboutusimg from "../images/girl-image.png";
+import aboutusimg from "../images/image1.png";
 import "../Pages/Aboutus.css";
 import { FaEnvelopeOpenText } from 'react-icons/fa';
 

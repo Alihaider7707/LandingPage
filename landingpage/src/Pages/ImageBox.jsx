@@ -1,6 +1,6 @@
 import React from "react";
 import "../Pages/ImageBox.css";
-import boximg from "../images/girl-image.png";
+import boximg from "../images/image1.png";
 import { AiFillHeart } from "react-icons/ai";
 import { IoDiamondOutline } from "react-icons/io5";
 
