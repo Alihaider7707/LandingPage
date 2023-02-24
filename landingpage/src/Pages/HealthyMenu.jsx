@@ -3,7 +3,8 @@ import "../Pages/HealthyMenu.css";
 import { AiFillClockCircle } from "react-icons/ai";
 import { FaClipboardList } from "react-icons/fa";
 import { Scrollbars } from "react-custom-scrollbars-2";
-import foodimg from "../images/Food-Pyramids-new-.png";
+import foodimg from "../images/dish1.png";
+import foodimg2 from "../images/dish2.png";
 
 
 
@@ -126,7 +127,7 @@ function HealthyMenu() {
         </div>
       </div> <div className="healthy-img-flex">
         <div className="healthy-image">
-          <img src={foodimg} alt="" />
+          <img src={foodimg2} alt="" />
         </div>
         <div className="healthy-img-text">
           <h5>

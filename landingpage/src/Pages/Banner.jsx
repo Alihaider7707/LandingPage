@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import {IoMdArrowDropright } from "react-icons/io";
+import {BsCaretRightFill } from "react-icons/bs";
 import img01 from '../images/image1.png'
 
 function Banner() {
@@ -24,7 +24,7 @@ function Banner() {
           </div>
           <div className="video">
             <div className="icon">
-            <IoMdArrowDropright  style={{border:"3px solid #b2b1b1",borderRadius:"50%",textAlign:"center",background:"#fff",padding:"8px 8px"}}/>
+            <BsCaretRightFill  style={{border:"3px solid rgb(167, 132, 202)",borderRadius:"50%",textAlign:"center",background:"#fff",padding:"13px",fontSize:"30px"}}/>
             </div>
             <div className="icon-text">
                 <h3>Watch Video</h3>

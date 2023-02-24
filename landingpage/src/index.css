@@ -12,7 +12,7 @@
      --ptext-color: #bab8b8;
      --background-color: #9255fb;
      --button-color: #fff;
-     --button-hover-color: #ffd463;
+     --button-hover-color: #ffba16;
      --logo-color: #fec22a;
      --background-gradient: linear-gradient(to right, rgba(137, 69, 242, 255)65%, rgba(173, 93, 177, 255), rgba(209, 123, 109, 255), transparent);
      --span-color: #febe20;
@@ -52,7 +52,7 @@
  button {
      padding: 15px 25px;
      background: var(--button-hover-color);
-     border: 2px solid #b2b1b1;
+     border: 2px solid rgb(167, 132, 202);
      border-radius: 10px;
      font-size: 17px;
      color: #5b5b5b;

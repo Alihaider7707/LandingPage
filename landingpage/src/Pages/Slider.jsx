@@ -4,6 +4,7 @@ import { GiChefToque } from "react-icons/gi";
 import { GiChessKing } from 'react-icons/gi';
 
 function Slider() {
+
   return (
     <>
       <div className="maxWidth">
@@ -11,7 +12,7 @@ function Slider() {
           <GiChessKing className="best-slider-icon"/>
           <h2>Our Best Programs</h2>
         </div>
-        <div className="box-flex">
+        <div className="box-flex" >
           <div className="box-color">
             <div className="box-background box-radius-1 ">
               <div className="box-icons">
@@ -28,7 +29,7 @@ function Slider() {
           </div>
           <div className="box-color">
             <div className="box-background ">
-              <div className="box-icons">
+              <div className="box-icons"> 
                 <GiChefToque />
               </div>
               <div className="box-text">
